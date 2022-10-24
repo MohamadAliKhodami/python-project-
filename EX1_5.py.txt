@@ -1,0 +1,12 @@
+while True:
+    val = input("Enter your value: ")
+    val=float(val)
+
+    if(val<=1):
+        print("infant")
+    elif(val>1 and val<13):
+        print("child")
+    elif(val>=13 and val<20):
+        print("teenager")
+    elif(val>=20):
+        print("adult")

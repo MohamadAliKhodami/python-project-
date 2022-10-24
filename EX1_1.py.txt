@@ -1,0 +1,3 @@
+def EX1_1(number):
+    number+=1
+    return number
