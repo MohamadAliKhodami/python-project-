@@ -1,0 +1,5 @@
+def EX1_3(side1,side2):
+    side3=side1+side2-1
+    return side3
+#(Int)->int
+#It gets 2 slide of triangle and returm the maximum edge of triangle

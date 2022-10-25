@@ -1,0 +1,6 @@
+def EX1_1(number):
+    number+=1
+    return number
+
+#(int)-> int
+#it gets a number and add 1 to the number the it would return it
