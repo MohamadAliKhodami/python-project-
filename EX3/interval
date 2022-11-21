@@ -1,0 +1,13 @@
+def interval() :
+    a = list(map(int,input().strip().split()))
+    if a==[] :
+        print(":/") 
+    else :       
+     s = max(a)-min(a)
+     for i in range(0,len(a)) :
+        if a[i]==s :
+            print(":)")
+            break      
+        elif i==len(a)-1 and a[i]!=s :
+            print(":(")
+interval()
