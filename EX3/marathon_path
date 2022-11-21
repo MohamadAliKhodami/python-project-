@@ -1,0 +1,12 @@
+a = list(map(int,input().strip().split()))
+sum=0
+for i in range(0,len(a)) :
+    if a[i]==None or type(a[i])!=int :
+        print("False")
+    if a[i]<0 :
+        a[i]=abs(a[i])    
+    sum+=a[i]
+if sum==25 :
+    print("True")   
+else :
+    print("False")  
