@@ -1,0 +1,22 @@
+#gharb=West shargh=East shomal=North jonub=south
+def destination() :
+ a = input().split()
+ i=0
+ sum=0
+ for i in range(0,len(a)) :
+    if a[i]=="n" :
+        a[i]=2
+    elif a[i]=="s" :
+        a[i]=-2
+    elif a[i]=="e" :
+        a[i]=1
+    else :
+        a[i]=-1            
+    sum+=a[i]
+ if sum==7 :
+    print("True")
+ elif sum==2 :
+    print("True")
+ else :       
+    print("False")
+destination()  
