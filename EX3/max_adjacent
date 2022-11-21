@@ -1,0 +1,12 @@
+from re import S
+
+
+a = list(map(int,input().strip().split()))
+
+zarb = []
+
+for i in range(0,len(a)) :
+    for j in range(0,len(a)) :
+        if j-i==1:
+            zarb.append(a[i]*a[j])
+print(max(zarb)) 
